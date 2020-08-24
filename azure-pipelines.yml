@@ -5,8 +5,8 @@
 
 name: test_Schedule
 schedules:
-- cron: '*/3 * * * *'
-  displayName: Every 30 mins
+- cron: '*/2 * * * *'
+  displayName: Every 2 mins
   branches:
     include:
     - devops-schedule-test
